@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width"=device-width, initial scale="1.0">
+        <title>All Products - Anik-anik </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="IMAGES/logo1.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="">Ordering</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="IMAGES/cart1.png" width="30px" height="30px">
+                <img src="IMAGES/menu-removebg-preview.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+  </div>
+  <!-------- single product details -------->
+
+  <div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <img src="IMAGES/panda.jpg" width="100%">
+
+            
+        </div>
+        <div class="col-2">
+    <p> Home / sonny</p>
+    <h1>Panpan Sonny</h1>
+    <h4>500 Pesos</h4>
+    <input type="number" value="1">
+    <a href="" class="btn">Add to Cart</a>
+    <h3>Product Details</h3>
+    <br>
+    <p>This is an adorable collectible figure featuring a rosy-themed headpiece,
+     designed to captivate both children and adults with its playful
+      and charming design. 
+     Perfect for decorating your space or adding to your 
+     collection, this figure makes a delightful gift 
+    for anyone who loves whimsical and unique items!</p>
+        </div>
+    </div>
+  </div>
+<!-------- title -------->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Product</h2>
+        <p>View more</p>
+    </div>
+</div>
+
+<!-------- product -------->
+    </div>
+ <div class="small-container">
+    
+    
+    <div class="row">
+        <div class="col-4">
+            <img src="IMAGES/panda.jpg" >
+            <h4>Pan-pan Sonny</h4>
+            <P>500.00 Pesos</P> 
+
+        </div>
+        <div class="col-4">
+            <img src="IMAGES/kappa.jpg" >
+            <h4>Froppy Sonny</h4>
+            <P>500.00 Pesos</P> 
+
+        </div>
+        <div class="col-4">
+            <img src="IMAGES/shark.jpg" >
+            <h4>Shark Sonny</h4>
+            <P>500.00 Pesos</P> 
+
+        </div>
+        <div class="col-4">
+            <img src="IMAGES/elephant.jpg" >
+            <h4>Elephant Sonny</h4>
+            <P>500.00 Pesos</P> 
+
+        </div>
+        
+    </div>
+
+ </div>
+ 
+
+
+<!-------- footer -------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download app for Android and Ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="IMAGES/playstore.png">
+                    <img src="IMAGES/appstore.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="IMAGES/logo1.png" >
+                <p>"Our purpose with Sonny Angels is to spread joy
+                     and spark smiles through <br>
+                     their charming and collectible designs,
+                      creating small moments of happiness for <br>
+                    everyone who welcomes them into their lives."</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li> Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+                <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>X</li>
+                    <li> Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+<!-------- js for toggle menu -------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+     MenuItems.style.maxHeight = "0px";
+    }
+    }
+</script>
+    </body>
+</html>
